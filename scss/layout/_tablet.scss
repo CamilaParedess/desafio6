@@ -1,0 +1,72 @@
+/* media query tablet */
+@media only screen and (min-width: 600px){
+    .mainIndex{
+        display: grid;
+        grid-template-areas: "tituloIndex imgIndex"
+                             "tituloIndex imgIndex"
+                             "parrafoIndex imgIndex";
+    }
+
+    img{
+        height: auto;
+        width: 100%;
+    }
+    
+    .imgIndex{
+        grid-area: imgIndex;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 40px;
+        height: auto;
+    }
+
+    .tituloIndex{
+        grid-area: tituloIndex;
+    }
+
+    .parrafoIndex{
+        margin-bottom: 0px;
+        grid-area: parrafoIndex;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 35px;
+    }
+
+
+    .footerIndex{
+        margin-top: 300px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px;
+    }
+    
+    .tituloLibros{
+        display: flex;
+        justify-content: center;
+        margin: 10px 10px;
+    }
+
+    .heartstopperMain{
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .heartstopperP{
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px;
+    }
+    
+    div a img{
+        height: 450px;
+    }
+    
+}

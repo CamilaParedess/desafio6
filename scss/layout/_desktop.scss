@@ -1,0 +1,25 @@
+/* media query desktop */
+@media only screen and (min-width: 1024px){
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav{
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li{
+        display: flex;
+        align-items: center;
+        border: 0 rgba(255, 255, 255, 0) solid;
+    }
+
+    nav ul li a{
+        border: black solid 1px;
+        border-radius: 25px;
+        padding: 10px;
+}
+}

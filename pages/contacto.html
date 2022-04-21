@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Sobre nosotros</title>
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Coomienzo del header-->
+        <header class="headerIndex text-focus-in">
+            <p class="logo">SearchBook</p>
+               <nav>
+                   <ul>
+                       <li><a href="../index.html">Inicio</a></li>
+                       <li><a href="./libros.html">Libros</a></li>
+                       <li><a href="./popular.html">Popular</a></li>
+                       <li><a href="./sobrenosotros.html">Sobre nosotros</a></li>
+                       <li><a href="./contacto.html">Contacto</a></li>
+                   </ul>
+               </nav>
+           </header>
+           <!-- Fin del header -->
+
+           <!-- Comienzo del main -->
+           <main>
+               <h1>Contacto</h1>
+               <form class="formClass" action="">
+
+                <fieldset>
+    
+                    <legend class="formLegend"> 
+                        Formulario de contacto
+                    </legend>
+    
+                    <div class="divFormulario">
+                        <label for="Nombre">Completa tu nombre:</label>
+                        <input type="text" name="Nombre" placeholder="Escribe tu nombre">
+                    </div>
+    
+                    <div class="divFormulario">
+                        <label for="Email">Completa tu Email:</label>
+                        <input type="email" name="Email" placeholder="Escribe tu Email">
+                    </div>
+    
+                    <div class="divFormulario">
+                        <label for="Genero">Selecciona tu género</label>
+                        <select name="Genero" id="">
+                            <option value="Mujer">Mujer</option>
+                            <option value="Hombre">Hombre</option>
+                            <option value="No binario">No binario</option>
+                        </select>
+                    </div>
+    
+                    <div class="divFormulario">
+                        <label for="Motivo">Motivo de consulta:</label> <br>
+    
+                        <div class="divFormulario">
+                           <label for="Motivo"> Pregunta </label>
+                           <input type="radio" name="Motivo" value="Pregunta"> <br>
+                        </div>
+    
+                        <div class="divFormulario">
+                            <label for="Motivo"> Sugerencia </label>
+                            <input type="radio" name="Motivo" value="Sugerencia"> <br>
+                        </div>
+    
+                        <div class="divFormulario">
+                            <label for="Motivo"> Otro </label>
+                           <input type="radio" name="Motivo" value="Otro">
+                        </div>
+                        
+                    </div>
+    
+                    <div>
+                        <input class="botonEnviar" type="submit" value="Enviar formulario">
+                        <input class="botonBorrar" type="Reset" value="Borrar">
+                    </div>
+    
+                </fieldset>
+    
+            </form>
+               
+           </main>
+           <!-- Fin del main-->
+
+
+           <!-- Comienzo del footer -->
+           <footer class="footerIndex">
+            <p> &copy; Todos los derechos reservados</p>
+        </footer>
+        <!-- Fin del footer-->
+        
+    </div>
+    
+</body>
+</html>
